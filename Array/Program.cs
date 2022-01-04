@@ -48,3 +48,7 @@ int[] EvenNumbers(int[] array)
     return arrayB;
 }
 
+int[] array = CreateArray(5); 
+FillArray(array,-10,10); 
+Console.WriteLine(PrintArray(array)); 
+Console.WriteLine(PrintArray(EvenNumbers(array))); 
