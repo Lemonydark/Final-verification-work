@@ -7,3 +7,7 @@
 // Console.WriteLine(PrintArray(array)); 
 // Console.WriteLine(PrintArray(EvenNumbers(array))); 
 
+int[] CreateArray(int count)
+{
+    return new int[count];
+}
